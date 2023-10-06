@@ -1,0 +1,7 @@
+{
+"Type 'a'": "a",
+"Type 'b'": "b",
+"Type 'c'": "c",
+"Type 'd'": "d",
+"Type 'e'": "e"
+}

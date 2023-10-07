@@ -12,10 +12,6 @@ def ask_question(question, answer):
         item = simpledialog.askstring("Question", question)
         if item is None:
             exit()
-        if item == "dict":
-            for i in questions.items():
-                for x in i:
-                    print(x)
         if item == answer:
             print(item)
             break
@@ -25,6 +21,5 @@ def ask_question(question, answer):
 while True:
     while True:
         questions_list = list(questions.items())
-        random_question = random.choice(questions_list)
-        ques, ans = random_question
+        ques, ans = random.choice(questions_list)
         ask_question(ques, ans)
